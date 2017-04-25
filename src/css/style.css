@@ -1,0 +1,53 @@
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d11947;
+}
+
+.marge-image {
+	margin-top: 68px;
+}
+
+.button-color {
+	background-color: #E71B4E;
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.align-nav {
+	display: flex;
+	justify-content: space-around;
+	z-index: 500;
+    overflow: hidden;
+    background-color: #E71B4E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.align a {
+    display: block;
+	text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.align-text{
+	display: flex;
+	justify-content: space-around;
+}
